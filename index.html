@@ -15,7 +15,7 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
-    
+    <link rel="stylesheet" href="./sass/main.css">
 </head>
 
 <body>
@@ -302,15 +302,20 @@
             <div class="subscription">
 
                 <form>
-                    <label for="email"> <span class="subscr-span">Підпишіться на розсилку</span></label>
-                    <input type="email" placeholder="E-mail" class="subscription-input" id="email">
-                </form>
-                <button type="submit" class="subscription-tg">Підписатися
-                    <svg width="24" height="24" class="telegram">
-                        <use href="./image/icons.svg#icon-icon-send"></use>
-                    </svg> </button>
-            </div>
+                    <div class="navi-form">
+                        <div>
+                            <label for="email"> <span class="subscr-span">Підпишіться на розсилку</span></label>
+                            <input type="email" name="user-email" placeholder="E-mail" class="subscription-input"
+                                id="email">
+                        </div>
 
+                        <button type="submit" class="subscription-tg">Підписатися
+                            <svg width="24" height="24" class="telegram">
+                                <use href="./image/symbol-defs.svg#icon-icon-send"></use>
+                            </svg> </button>
+                </form>
+            </div>
+        </div>
         </div>
     </footer>
 
@@ -361,11 +366,11 @@
                     <textarea name="user-text" id="text" class="online-coments" placeholder=" Введіть текст"></textarea>
                 </div>
 
-                <div class="modal-fields">
+                <div class="modal-fields part-check">
                     <input type="checkbox" class="modal-check unimportland" name="privacy" id="privacy">
                     <label for="privacy" class="check-text">
                         <span class="span"> <svg width="16" height="15" class="che-icon">
-                                <use href="./image/icons.svg#icon-Vector"></use>
+                                <use href="./image/symbol-defs.svg#icon-Vector"></use>
                             </svg> </span>
                         Погоджуюся з розсилкою та приймаю <span class="terms"> Умови договору</span> </label>
                 </div>
@@ -375,7 +380,6 @@
             </form>
         </div>
     </div>
-
     <script src="./js/modal.js"></script>
 </body>
 
