@@ -1,0 +1,122 @@
+.portfolio{
+    background-color:var(--main-background);
+  }
+ 
+ .button-secondary{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    background: var(--second-background);
+    border-radius: 4px;
+    color: var(--title-text-color);
+ }
+ 
+ .btn-sec{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .button-secondary:hover,
+ .button-secondary:focus{
+    color: var(--main-background);
+    background-color: var(--accent-color);
+ }
+ 
+ .set-btn:focus,
+ .set-btn:hover{
+   box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+ .set-btn{
+    border-radius: 4px;
+    margin-left: 8px;
+ }
+
+ .portf-p{
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+ }
+ 
+ .works{
+
+    font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   color: var(--title-text-color);
+   letter-spacing: 0.06em;
+ }
+
+ .button, .button-secondary:hover{
+    background: var(--accent-color);
+   
+ }
+
+ .hover:hover,
+.hover:focus{
+   position: absolute;
+   position: relative;
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+   transition: box-chadow, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay{
+    position: relative;
+    overflow: hidden;
+  }        
+
+ 
+  li:hover .work-set-text {transform: translateY(0%)}
+  li:hover .overlay{transform: translateY(0%);}
+
+ .work-set-text{
+    transform: translateY(100%);
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+
+    padding-left: 24px;
+    padding-right: 24px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 18px;
+ line-height: 1.8;
+ letter-spacing: 0.03em;
+ color: var(--main-background);
+ background: rgba(33, 150, 243, 0.9);
+ }
+
+ 
+ .work-set{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+ }
+
+ .bord{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-color: var(--primary-text-color);
+    border-top: 0px;
+    border-bottom:solid 1px #EEEEEE;
+    border-left: solid 1px #EEEEEE;
+    border-right: solid 1px #EEEEEE;
+
+ }

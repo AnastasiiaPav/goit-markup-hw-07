@@ -1,3 +1,16 @@
-body{
-    background-color: pink;
-}
+@import './utilits/vars';
+@import './variables.scss';
+
+@import './header';
+
+@import './hero';
+
+@import './benefits';
+@import './works';
+@import './team';
+@import './klients';
+
+@import './portfolio';
+
+@import './footer';
+@import './backdrop';

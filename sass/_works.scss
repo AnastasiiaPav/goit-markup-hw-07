@@ -1,0 +1,53 @@
+.work-list{
+      
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .aplication{
+    position: relative;
+ }
+ 
+ .feature-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+ }
+ 
+ .feature-list .text{
+
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+    color: var(--primary-text-color);
+  }
+
+  .title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+   
+  }
+ 
+ 
+  .second-title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color:var(--title-text-color);
+    letter-spacing: 0.03em;
+ }
+
+ 
+ .peculiar{
+   background-color: var(--main-background);
+}
