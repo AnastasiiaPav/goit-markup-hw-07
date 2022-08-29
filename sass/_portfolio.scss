@@ -11,6 +11,13 @@
     background: var(--second-background);
     border-radius: 4px;
     color: var(--title-text-color);
+
+    &:hover,
+    &:focus{
+       color: var(--main-background);
+       background-color: var(--accent-color);
+    }
+
  }
  
  .btn-sec{
@@ -19,20 +26,16 @@
     justify-content: center;
  }
 
- .button-secondary:hover,
- .button-secondary:focus{
-    color: var(--main-background);
-    background-color: var(--accent-color);
- }
- 
- .set-btn:focus,
- .set-btn:hover{
-   box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
- }
 
  .set-btn{
     border-radius: 4px;
     margin-left: 8px;
+
+    &:focus,
+    &:hover{
+      box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
  }
 
  .portf-p{

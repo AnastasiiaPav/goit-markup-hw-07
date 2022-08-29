@@ -15,20 +15,21 @@
 
     padding-top: 200px;
     padding-bottom: 200px;
+
+  &-title {
+      max-width: 696px;
+      width: 100%;
+      
+      color: var(--main-background);
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.3;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+   }
  }
  
- .hero-title {
-    max-width: 696px;
-    width: 100%;
-    
-    color: var(--main-background);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.3;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
- }
 
  .button, .button-secondary{
    border: none;
@@ -60,11 +61,11 @@
       font-weight: 700;
       font-size: 16px;
       line-height: 1.8;
+
+      &:hover, 
+      &:focus{ 
+          color: var(--logo-color);
+      
+      }
     }
     
-    
-   button:hover, 
-   button:focus{ 
-       color: var(--logo-color);
-   
-   }
