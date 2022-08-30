@@ -1,3 +1,14 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color:#2196F3;
+  --main-background: #FFFFFF;
+  --second-background: #F5F4FA;
+  --logo-color:#000000;
+  --footer-backgraund: #2F303A;
+  --footer-color: #FFFFFF 60%;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -57,7 +68,7 @@ img {
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  background: var(--second-background);
+  background: var(--main-background);
   color: var(--primary-text-color);
   padding-top: 80px;
 }
