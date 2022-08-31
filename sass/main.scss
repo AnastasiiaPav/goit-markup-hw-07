@@ -1,16 +1,16 @@
 @import './utilits/vars';
-@import './variables.scss';
+@import './base/base';
 
-@import './header';
+@import './section/header';
 
-@import './hero';
+@import './section/hero';
 
-@import './benefits';
-@import './works';
-@import './team';
-@import './klients';
+@import './section/benefits';
+@import './section/works';
+@import './section/team';
+@import './section/klients';
+@import './section/footer';
 
-@import './portfolio';
+@import './page/portfolio';
 
-@import './footer';
 @import './backdrop';
