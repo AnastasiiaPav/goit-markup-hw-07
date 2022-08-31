@@ -17,7 +17,7 @@
     background-color:var(--main-background);
  }
 
- .team__icons{
+ .social__icons{
     width: 20px;
     height: 20px;
     display: flex;
@@ -29,12 +29,12 @@
  }
  
  
- .team__link:focus,
- .team__link:hover{
+ .social__link:focus,
+ .social__link:hover{
     background-color: var(--accent-color);
  }
  
- .team__link{
+ .social__link{
     
    width: 44px;
    height: 44px;
@@ -50,12 +50,12 @@
     
  }
  
- .team__link:hover .team__icons,
- .team__link:focus .team__icons{
+ .social__link:hover .social__icons,
+ .social__link:focus .social__icons{
     fill: var(--main-background);
  }
 
- .focus.team__link.team__icons:focus{
+ .focus.social__link.social__icons:focus{
     fill:var(--accent-color);
  }
 

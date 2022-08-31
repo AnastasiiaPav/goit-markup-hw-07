@@ -466,7 +466,7 @@ span {
   background-color: var(--main-background);
 }
 
-.team__icons {
+.social__icons {
   width: 20px;
   height: 20px;
   display: flex;
@@ -476,12 +476,12 @@ span {
   fill: #AFB1B8;
 }
 
-.team__link:focus,
-.team__link:hover {
+.social__link:focus,
+.social__link:hover {
   background-color: var(--accent-color);
 }
 
-.team__link {
+.social__link {
   width: 44px;
   height: 44px;
   align-items: center;
@@ -494,12 +494,12 @@ span {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team__link:hover .team__icons,
-.team__link:focus .team__icons {
+.social__link:hover .social__icons,
+.social__link:focus .social__icons {
   fill: var(--main-background);
 }
 
-.focus.team__link.team__icons:focus {
+.focus.social__link.social__icons:focus {
   fill: var(--accent-color);
 }
 
